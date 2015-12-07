@@ -1,0 +1,2 @@
+FROM cptactionhank/atlassian-confluence
+
