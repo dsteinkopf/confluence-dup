@@ -1,4 +1,4 @@
-FROM cptactionhank/atlassian-confluence:6.0.7
+FROM cptactionhank/atlassian-confluence:6.2.4
 
 # disable breadcumbs
 # see https://confluence.atlassian.com/display/CONFKB/How+to+disable+hiding+(ellipsing)+of+breadcrumbs
