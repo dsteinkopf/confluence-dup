@@ -11,5 +11,7 @@ RUN touch /opt/atlassian/confluence/conf/jmxremote.access \
           /opt/atlassian/confluence/conf/jmxremote.password \
           /opt/atlassian/confluence/conf/server.xml
 
+RUN apk update && apk add graphviz
+
 USER daemon:daemon
 
