@@ -1,4 +1,5 @@
-FROM cptactionhank/atlassian-confluence
+# changed to dsteinkopf/cptactionhank until cptactionhank/atlassian-confluence is up-to-date again
+FROM dsteinkopf/cptactionhank-confluence
 
 # disable breadcumbs
 # see https://confluence.atlassian.com/display/CONFKB/How+to+disable+hiding+(ellipsing)+of+breadcrumbs
